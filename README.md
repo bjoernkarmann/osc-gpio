@@ -1,11 +1,33 @@
-# OSC-Relay
+# OSC-GPIO
 
-Save this folder on the raspberryPi 
+This project is for controlling gpio pins on a raspberyPi using osc messages.
 
-``npm install``
+## Run
+
+```
+$ npm start
+```
+
+
+## Getting started:
+
+Download and install the osc-gpio
+
+```
+git clone https://github.com/bjoernkarmann/osc-gpio.git && cd osc-gpio && npm install
+```
 
 To start run
 
 ``npm start``
 
-Osc-port: 9998
+
+
+## OSC protocol
+
+- port: 9998
+- adress: /pin/state
+
+## License
+
+The MIT License (MIT)
