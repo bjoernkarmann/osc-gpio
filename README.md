@@ -17,16 +17,28 @@ Download and install the osc-gpio
 git clone https://github.com/bjoernkarmann/osc-gpio.git && cd osc-gpio && npm install
 ```
 
-To start run
+To start run this in the same directory
 
-``npm start``
+```
+npm start
+```
 
+## Run at startup:
 
+Enter the **rc.local** file:
 
-## OSC protocol
+```
+sudo nano /etc/rc.local
+```
+Enter this line just before **exit 0**
 
-- port: 9998
-- adress: /pin/state
+```
+su pi -c 'node /home/pi/osc-gpio/app.js < /dev/null &'
+```
+
+## OSC protocol:
+
+The server is listening on port: 9998. To change the state adress: /pin/state
 
 ## License
 
