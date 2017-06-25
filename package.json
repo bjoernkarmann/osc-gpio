@@ -1,0 +1,22 @@
+{
+  "name": "osc-relay",
+  "version": "1.0.0",
+  "description": "osc controlled gpio",
+  "scripts": {
+    "start": "app.js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toddtreece/osc-examples"
+  },
+  "keywords": [
+    "osc"
+  ],
+  "author": "Bjørn Karmann",
+  "license": "MIT",
+  "dependencies": {
+    "osc-min": "^0.2.0",
+    "pi-gpio": "0.0.8",
+    "socket.io": "^1.3.5"
+  }
+}
