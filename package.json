@@ -1,9 +1,9 @@
 {
-  "name": "osc-relay",
+  "name": "osc-gpio",
   "version": "1.0.0",
   "description": "osc controlled gpio",
   "scripts": {
-    "start": "app.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
