@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "osc controlled gpio",
   "scripts": {
-    "start": "app.js",
+    "start": "app.js"
   },
   "repository": {
     "type": "git",
